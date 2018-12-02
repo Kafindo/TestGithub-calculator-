@@ -5,7 +5,7 @@ expression = ""
 def press(num):
     global expression
 
-    expression = expression  str(num)
+    expression = expression + str(num)
 
     equation.set(expression)
 
