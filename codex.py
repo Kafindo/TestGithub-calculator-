@@ -26,6 +26,11 @@ def equalpress():
 
         expression = ""
 
+def clear():
+    global expression
+    expression = ""
+    equation.set("")
+
 
 
 gui = Tk()
